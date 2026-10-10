@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:6366f1,100:8b5cf6&height=190&section=header&text=ducaoya&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=Small%20sharp%20tools%20for%20people%20who%20build%20software&descAlignY=58&descSize=17&animation=fadeIn" alt="ducaoya" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:6366f1,100:8b5cf6&height=190&section=header&text=ducaoya&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=Small%20sharp%20tools%20for%20people%20who%20build%20software&descAlignY=58&descSize=17" alt="ducaoya" />
 
 <a href="https://github.com/ducaoya">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3200&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=AI+coding-agent+extensions;Debug+tooling+for+Whistle+and+Figma;Tauri+%2B+Vue3+%2B+WebGPU+desktop+apps;Zero-dependency%2C+no-nonsense+utilities" alt="What I build" />
@@ -8,9 +8,9 @@
 
 <br />
 
-<a href="https://github.com/ducaoya?tab=repositories"><img src="https://img.shields.io/badge/Repositories-12-6366f1?style=flat-square&logo=github&logoColor=white" alt="Repositories" /></a>
-<img src="https://img.shields.io/badge/Focus-Developer%20Tooling-0ea5e9?style=flat-square" alt="Focus" />
-<img src="https://img.shields.io/badge/Shipping-Daily-8b5cf6?style=flat-square" alt="Shipping" />
+<img src="https://img.shields.io/github/stars/ducaoya?affiliations=OWNER&style=flat-square&label=Stars&color=6366f1&logo=github" alt="Stars" />
+<img src="https://img.shields.io/github/followers/ducaoya?style=flat-square&label=Followers&color=0ea5e9&logo=github" alt="Followers" />
+<img src="https://img.shields.io/badge/Focus-Developer%20Tooling-8b5cf6?style=flat-square" alt="Focus" />
 
 </div>
 
@@ -73,8 +73,6 @@ I build the tooling I keep wishing existed — extensions for AI coding agents, 
 
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=ducaoya&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=c9d1d9" alt="GitHub stats" />
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ducaoya&layout=compact&hide_border=true&langs_count=8&bg_color=0D1117&title_color=38BDF8&text_color=c9d1d9" alt="Top languages" />
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ducaoya&bg_color=0D1117&color=38BDF8&line=8B5CF6&point=ffffff&area=true&hide_border=true" alt="Contribution graph" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ducaoya/ducaoya/output/snake-dark.svg" />
