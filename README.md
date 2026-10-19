@@ -3,7 +3,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:6366f1,100:8b5cf6&height=190&section=header&text=ducaoya&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=Small%20sharp%20tools%20for%20people%20who%20build%20software&descAlignY=58&descSize=17" alt="ducaoya" />
 
 <a href="https://github.com/ducaoya">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3200&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=AI+coding-agent+extensions;Debug+tooling+for+Whistle+and+Figma;Tauri+%2B+Vue3+%2B+WebGPU+desktop+apps;Zero-dependency%2C+no-nonsense+utilities" alt="What I build" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3200&pause=900&color=38BDF8&center=true&vCenter=true&width=640&lines=AI+coding-agent+extensions;Tauri+2+desktop+apps+for+Windows+and+macOS;Debug+tooling+for+Whistle+and+Figma;Zero-dependency%2C+no-nonsense+utilities" alt="What I build" />
 </a>
 
 <br />
@@ -20,7 +20,8 @@ I build the tooling I keep wishing existed — extensions for AI coding agents, 
 
 - **AI coding-agent extensions.** Plugins for the `pi` agent: a hang watchdog that catches silent commands, async subagent delegation, a full status-bar footer, and web search/extraction.
 - **Debug and proxy tooling.** Whistle plugins that make streaming and third-party assets visible: live SSE inspection, SSE mocking, and content-hash disk caching for the Figma desktop client.
-- **Desktop apps.** Cross-platform image compositing with Tauri 2, Vue 3, WebGPU and Rust.
+- **Desktop apps.** MenuForge, a polished ~1.2 MB Windows context-menu manager (Tauri 2 + Rust); compositor-next, cross-platform image compositing with WebGPU.
+- **Web clients.** hongguo-web, a third-party short-drama client with 1080P playback, swipe-feed bingeing and resume support.
 - **MCP servers.** Turning clipboard-level design data (Figma) into something an AI can actually read.
 - **Principle:** no dependency you can avoid, no abstraction you cannot read in one sitting.
 
@@ -38,6 +39,7 @@ I build the tooling I keep wishing existed — extensions for AI coding agents, 
 ![Tauri](https://img.shields.io/badge/Tauri_2-24C8DB?style=for-the-badge&logo=tauri&logoColor=white)
 ![WebGPU](https://img.shields.io/badge/WebGPU-005A9C?style=for-the-badge&logo=webgpu&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
@@ -46,11 +48,12 @@ I build the tooling I keep wishing existed — extensions for AI coding agents, 
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
+| [**menuforge**](https://github.com/ducaoya/menuforge) | Polished, lightweight manager for the Windows right-click menu: liquid-glass UI, visual icon picker, batch enable/disable & delete, dead-entry cleanup, auto-backup. ~1.2 MB installer. | `Tauri` `Rust` |
 | [**pi-hang-guard**](https://github.com/ducaoya/pi-hang-guard) | Catches commands that go silent — hung builds, stuck dev servers — and warns you instead of waiting forever. | `TypeScript` |
+| [**hongguo-web**](https://github.com/ducaoya/hongguo-web) | Third-party web client for Hongguo short dramas: up to 1080P playback, short-video-style swipe feed, and resume-where-you-left-off. Unofficial, for personal study. | `JavaScript` `Docker` |
 | [**compositor-next**](https://github.com/ducaoya/compositor-next) | Cross-platform image editor for compositing and photo work. Reads and writes the `.comp` project format. | `Tauri` `Vue` `WebGPU` `Rust` |
 | [**figma-clipboard-design-mcp**](https://github.com/ducaoya/figma-clipboard-design-mcp) | Turns Figma clipboard data — layers, layout, fills, text, vector paths — into a local MCP server for AI. No API quota, no deps. | `JavaScript` `MCP` |
 | [**whistle-sse-viewer**](https://github.com/ducaoya/whistle-sse-viewer) | Adds an SSE tab to Whistle's Response panel: watch and copy `text/event-stream` bodies live, with near-fullscreen view and JSON formatting. | `Whistle` |
-| [**npm-downloads-stats**](https://github.com/ducaoya/npm-downloads-stats) | Zero-dependency static dashboard charting daily, weekly, monthly and yearly npm downloads for any npm user. | `JavaScript` |
 
 <details>
 <summary><b>More repositories</b></summary>
@@ -63,6 +66,7 @@ I build the tooling I keep wishing existed — extensions for AI coding agents, 
 | [**pi-web-access**](https://github.com/ducaoya/pi-web-access) | Web search and content extraction extension for `pi`. |
 | [**whistle-sse-mock-plus-plugin**](https://github.com/ducaoya/whistle-sse-mock-plus-plugin) | Mock requests as SSE streams: delayed JSON messages, `.jsonl` replay, event/id/data fields, loop mode, web UI. |
 | [**whistle-figma-cache**](https://github.com/ducaoya/whistle-figma-cache) | Disk-caches the Figma desktop client's static assets so content-hash immutable files replay locally. |
+| [**npm-downloads-stats**](https://github.com/ducaoya/npm-downloads-stats) | Zero-dependency static dashboard charting daily, weekly, monthly and yearly npm downloads for any npm user. |
 | [**ofd-tool**](https://github.com/ducaoya/ofd-tool) | Tooling around the OFD document format. |
 
 </details>
