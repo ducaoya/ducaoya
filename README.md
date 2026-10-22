@@ -48,6 +48,7 @@ I build the tooling I keep wishing existed — extensions for AI coding agents, 
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
+| [**app-uninstaller**](https://github.com/ducaoya/app-uninstaller) | Windows uninstaller that finishes the job: runs the system uninstaller, then sweeps leftover registry keys, AppData folders and shortcuts. Force-uninstall for broken apps, recycle-bin safety net, live per-step logs with cancel. | `Tauri` `Rust` |
 | [**menuforge**](https://github.com/ducaoya/menuforge) | Polished, lightweight manager for the Windows right-click menu: liquid-glass UI, visual icon picker, batch enable/disable & delete, dead-entry cleanup, auto-backup. ~1.2 MB installer. | `Tauri` `Rust` |
 | [**pi-hang-guard**](https://github.com/ducaoya/pi-hang-guard) | Catches commands that go silent — hung builds, stuck dev servers — and warns you instead of waiting forever. | `TypeScript` |
 | [**hongguo-web**](https://github.com/ducaoya/hongguo-web) | Third-party web client for Hongguo short dramas: up to 1080P playback, short-video-style swipe feed, and resume-where-you-left-off. Unofficial, for personal study. | `JavaScript` `Docker` |
