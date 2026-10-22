@@ -20,7 +20,7 @@ I build the tooling I keep wishing existed — extensions for AI coding agents, 
 
 - **AI coding-agent extensions.** Plugins for the `pi` agent: a hang watchdog that catches silent commands, async subagent delegation, a full status-bar footer, and web search/extraction.
 - **Debug and proxy tooling.** Whistle plugins that make streaming and third-party assets visible: live SSE inspection, SSE mocking, and content-hash disk caching for the Figma desktop client.
-- **Desktop apps.** MenuForge, a polished ~1.2 MB Windows context-menu manager (Tauri 2 + Rust); compositor-next, cross-platform image compositing with WebGPU.
+- **Desktop apps.** MenuForge, a polished ~1.2 MB Windows context-menu manager (Tauri 2 + Rust); app-uninstaller, a Windows uninstaller that wipes registry and leftover files; compositor-next, cross-platform image compositing with WebGPU.
 - **Web clients.** hongguo-web, a third-party short-drama client with 1080P playback, swipe-feed bingeing and resume support.
 - **MCP servers.** Turning clipboard-level design data (Figma) into something an AI can actually read.
 - **Principle:** no dependency you can avoid, no abstraction you cannot read in one sitting.
@@ -46,15 +46,16 @@ I build the tooling I keep wishing existed — extensions for AI coding agents, 
 
 ## Featured Projects
 
+Pinned on my profile — shown here in the same order.
+
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
-| [**app-uninstaller**](https://github.com/ducaoya/app-uninstaller) | Windows uninstaller that finishes the job: runs the system uninstaller, then sweeps leftover registry keys, AppData folders and shortcuts. Force-uninstall for broken apps, recycle-bin safety net, live per-step logs with cancel. | `Tauri` `Rust` |
-| [**menuforge**](https://github.com/ducaoya/menuforge) | Polished, lightweight manager for the Windows right-click menu: liquid-glass UI, visual icon picker, batch enable/disable & delete, dead-entry cleanup, auto-backup. ~1.2 MB installer. | `Tauri` `Rust` |
+| [**pi-footer-styler**](https://github.com/ducaoya/pi-footer-styler) | Status-bar footer for `pi`: model, thinking level, git branch, tokens, cost, context window, cache hit rate, speed. | `TypeScript` |
 | [**pi-hang-guard**](https://github.com/ducaoya/pi-hang-guard) | Catches commands that go silent — hung builds, stuck dev servers — and warns you instead of waiting forever. | `TypeScript` |
-| [**hongguo-web**](https://github.com/ducaoya/hongguo-web) | Third-party web client for Hongguo short dramas: up to 1080P playback, short-video-style swipe feed, and resume-where-you-left-off. Unofficial, for personal study. | `JavaScript` `Docker` |
-| [**compositor-next**](https://github.com/ducaoya/compositor-next) | Cross-platform image editor for compositing and photo work. Reads and writes the `.comp` project format. | `Tauri` `Vue` `WebGPU` `Rust` |
+| [**whistle-sse-mock-plus-plugin**](https://github.com/ducaoya/whistle-sse-mock-plus-plugin) | Mocks requests as SSE streams: delayed JSON messages, `.jsonl` replay, event/id/data fields, loop mode and a web UI. | `Whistle` |
 | [**figma-clipboard-design-mcp**](https://github.com/ducaoya/figma-clipboard-design-mcp) | Turns Figma clipboard data — layers, layout, fills, text, vector paths — into a local MCP server for AI. No API quota, no deps. | `JavaScript` `MCP` |
-| [**whistle-sse-viewer**](https://github.com/ducaoya/whistle-sse-viewer) | Adds an SSE tab to Whistle's Response panel: watch and copy `text/event-stream` bodies live, with near-fullscreen view and JSON formatting. | `Whistle` |
+| [**menuforge**](https://github.com/ducaoya/menuforge) | Polished, lightweight manager for the Windows right-click menu: liquid-glass UI, visual icon picker, batch enable/disable & delete, dead-entry cleanup, auto-backup. ~1.2 MB installer. | `Tauri` `Rust` |
+| [**app-uninstaller**](https://github.com/ducaoya/app-uninstaller) | Windows uninstaller that finishes the job: runs the system uninstaller, then sweeps leftover registry keys, AppData folders and shortcuts. Force-uninstall for broken apps, recycle-bin safety net, live per-step logs with cancel. | `Tauri` `Rust` |
 
 <details>
 <summary><b>More repositories</b></summary>
@@ -62,10 +63,11 @@ I build the tooling I keep wishing existed — extensions for AI coding agents, 
 
 | Project | What it does |
 | :--- | :--- |
+| [**hongguo-web**](https://github.com/ducaoya/hongguo-web) | Third-party web client for Hongguo short dramas: up to 1080P playback, swipe-feed bingeing and resume support. |
+| [**compositor-next**](https://github.com/ducaoya/compositor-next) | Cross-platform image editor for compositing and photo work. Reads and writes the `.comp` project format. |
+| [**whistle-sse-viewer**](https://github.com/ducaoya/whistle-sse-viewer) | Adds an SSE tab to Whistle's Response panel: watch and copy `text/event-stream` bodies live, with near-fullscreen view and JSON formatting. |
 | [**pi-subagents**](https://github.com/ducaoya/pi-subagents) | Async subagent delegation for `pi`, with truncation, artifacts and session sharing. |
-| [**pi-footer-styler**](https://github.com/ducaoya/pi-footer-styler) | Status-bar footer for `pi`: model, thinking level, git branch, tokens, cost, context window, cache hit rate. |
 | [**pi-web-access**](https://github.com/ducaoya/pi-web-access) | Web search and content extraction extension for `pi`. |
-| [**whistle-sse-mock-plus-plugin**](https://github.com/ducaoya/whistle-sse-mock-plus-plugin) | Mock requests as SSE streams: delayed JSON messages, `.jsonl` replay, event/id/data fields, loop mode, web UI. |
 | [**whistle-figma-cache**](https://github.com/ducaoya/whistle-figma-cache) | Disk-caches the Figma desktop client's static assets so content-hash immutable files replay locally. |
 | [**npm-downloads-stats**](https://github.com/ducaoya/npm-downloads-stats) | Zero-dependency static dashboard charting daily, weekly, monthly and yearly npm downloads for any npm user. |
 | [**ofd-tool**](https://github.com/ducaoya/ofd-tool) | Tooling around the OFD document format. |
