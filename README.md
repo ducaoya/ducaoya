@@ -50,8 +50,8 @@ Pinned on my profile — shown here in the same order.
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
-| [**pi-footer-styler**](https://github.com/ducaoya/pi-footer-styler) | Status-bar footer for `pi`: model, thinking level, git branch, tokens, cost, context window, cache hit rate, speed. | `TypeScript` |
 | [**pi-hang-guard**](https://github.com/ducaoya/pi-hang-guard) | Catches commands that go silent — hung builds, stuck dev servers — and warns you instead of waiting forever. | `TypeScript` |
+| [**pi-footer-styler**](https://github.com/ducaoya/pi-footer-styler) | Status-bar footer for `pi`: model, thinking level, git branch, tokens, cost, context window, cache hit rate, speed. | `TypeScript` |
 | [**whistle-sse-mock-plus-plugin**](https://github.com/ducaoya/whistle-sse-mock-plus-plugin) | Mocks requests as SSE streams: delayed JSON messages, `.jsonl` replay, event/id/data fields, loop mode and a web UI. | `Whistle` |
 | [**figma-clipboard-design-mcp**](https://github.com/ducaoya/figma-clipboard-design-mcp) | Turns Figma clipboard data — layers, layout, fills, text, vector paths — into a local MCP server for AI. No API quota, no deps. | `JavaScript` `MCP` |
 | [**menuforge**](https://github.com/ducaoya/menuforge) | Polished, lightweight manager for the Windows right-click menu: liquid-glass UI, visual icon picker, batch enable/disable & delete, dead-entry cleanup, auto-backup. ~1.2 MB installer. | `Tauri` `Rust` |
@@ -70,7 +70,9 @@ Pinned on my profile — shown here in the same order.
 | [**pi-web-access**](https://github.com/ducaoya/pi-web-access) | Web search and content extraction extension for `pi`. |
 | [**whistle-figma-cache**](https://github.com/ducaoya/whistle-figma-cache) | Disk-caches the Figma desktop client's static assets so content-hash immutable files replay locally. |
 | [**npm-downloads-stats**](https://github.com/ducaoya/npm-downloads-stats) | Zero-dependency static dashboard charting daily, weekly, monthly and yearly npm downloads for any npm user. |
-| [**ofd-tool**](https://github.com/ducaoya/ofd-tool) | Tooling around the OFD document format. |
+| [**salary-ticker**](https://github.com/ducaoya/salary-ticker) | Salary ticking up in real time — every second on the clock is paid for. |
+| [**contracted-photographer**](https://github.com/ducaoya/contracted-photographer) | Static site that turns a photography contract into a uniquely numbered certificate with a 3D plaque, QR verification and double-sided print export. Vue 3 + Vite SSG, no backend. |
+| [**claw-code**](https://github.com/ducaoya/claw-code) | Better harness tooling for the leaked Claude Code archive — making it actually do things, rewritten in Rust. |
 
 </details>
 
