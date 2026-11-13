@@ -78,13 +78,13 @@ Pinned on my profile — shown here in the same order.
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ducaoya&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=38BDF8&icon_color=8B5CF6&text_color=c9d1d9" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ducaoya&layout=compact&hide_border=true&langs_count=8&bg_color=0D1117&title_color=38BDF8&text_color=c9d1d9" alt="Top languages" />
+<img height="175" src="https://raw.githubusercontent.com/ducaoya/ducaoya/output/stats.svg" alt="GitHub stats" />
+<img height="175" src="https://raw.githubusercontent.com/ducaoya/ducaoya/output/top-langs.svg" alt="Top languages" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ducaoya/ducaoya/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ducaoya/ducaoya/output/snake.svg" />
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/ducaoya/ducaoya/output/snake.svg" width="100%" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ducaoya/ducaoya/output/snake-light.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/ducaoya/ducaoya/output/snake-dark.svg" width="100%" />
 </picture>
 
 </div>
