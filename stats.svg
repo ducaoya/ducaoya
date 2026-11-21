@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="175" viewBox="0 0 480 175" role="img" aria-label="ducaoya's GitHub Stats">
+  <rect width="480" height="175" rx="8" fill="#0D1117"/>
+  <g font-family="Segoe UI,Helvetica,Arial,sans-serif">
+  <text x="28" y="34" font-size="16" font-weight="600" fill="#38BDF8">ducaoya's GitHub Stats</text>
+  <circle cx="32" cy="70" r="4" fill="#8B5CF6" opacity="0.85"/><text x="44" y="74" font-size="13" fill="#8b949e">Total Stars</text><text x="214" y="74" font-size="14" font-weight="700" fill="#c9d1d9" text-anchor="end">17</text>
+  <circle cx="258" cy="70" r="4" fill="#8B5CF6" opacity="0.85"/><text x="270" y="74" font-size="13" fill="#8b949e">Public Repos</text><text x="440" y="74" font-size="14" font-weight="700" fill="#c9d1d9" text-anchor="end">17</text>
+  <circle cx="32" cy="102" r="4" fill="#8B5CF6" opacity="0.85"/><text x="44" y="106" font-size="13" fill="#8b949e">Followers</text><text x="214" y="106" font-size="14" font-weight="700" fill="#c9d1d9" text-anchor="end">3</text>
+  <circle cx="258" cy="102" r="4" fill="#8B5CF6" opacity="0.85"/><text x="270" y="106" font-size="13" fill="#8b949e">Total Forks</text><text x="440" y="106" font-size="14" font-weight="700" fill="#c9d1d9" text-anchor="end">0</text>
+  <circle cx="32" cy="134" r="4" fill="#8B5CF6" opacity="0.85"/><text x="44" y="138" font-size="13" fill="#8b949e">Following</text><text x="214" y="138" font-size="14" font-weight="700" fill="#c9d1d9" text-anchor="end">11</text>
+  <circle cx="258" cy="134" r="4" fill="#8B5CF6" opacity="0.85"/><text x="270" y="138" font-size="13" fill="#8b949e">Top Language</text><text x="440" y="138" font-size="14" font-weight="700" fill="#c9d1d9" text-anchor="end">TypeScript</text>
+  </g>
+</svg>

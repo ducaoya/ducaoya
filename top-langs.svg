@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="175" viewBox="0 0 480 175" role="img" aria-label="Most Used Languages">
+  <rect width="480" height="175" rx="8" fill="#0D1117"/>
+  <g font-family="Segoe UI,Helvetica,Arial,sans-serif">
+  <text x="28" y="34" font-size="16" font-weight="600" fill="#38BDF8">Most Used Languages</text>
+  <text x="28" y="70" font-size="12" fill="#c9d1d9">TypeScript</text><rect x="130" y="61" width="150" height="8" rx="4" fill="#21262d"/><rect x="130" y="61" width="57.7" height="8" rx="4" fill="#38BDF8"/><text x="290" y="70" font-size="12" fill="#8b949e">38.5%</text>
+  <text x="28" y="88" font-size="12" fill="#c9d1d9">JavaScript</text><rect x="130" y="79" width="150" height="8" rx="4" fill="#21262d"/><rect x="130" y="79" width="37.4" height="8" rx="4" fill="#8B5CF6"/><text x="290" y="88" font-size="12" fill="#8b949e">24.9%</text>
+  <text x="28" y="106" font-size="12" fill="#c9d1d9">Vue</text><rect x="130" y="97" width="150" height="8" rx="4" fill="#21262d"/><rect x="130" y="97" width="16.9" height="8" rx="4" fill="#6366F1"/><text x="290" y="106" font-size="12" fill="#8b949e">11.3%</text>
+  <text x="28" y="124" font-size="12" fill="#c9d1d9">HTML</text><rect x="130" y="115" width="150" height="8" rx="4" fill="#21262d"/><rect x="130" y="115" width="14.3" height="8" rx="4" fill="#0EA5E9"/><text x="290" y="124" font-size="12" fill="#8b949e">9.5%</text>
+  <text x="28" y="142" font-size="12" fill="#c9d1d9">Rust</text><rect x="130" y="133" width="150" height="8" rx="4" fill="#21262d"/><rect x="130" y="133" width="13.2" height="8" rx="4" fill="#A78BFA"/><text x="290" y="142" font-size="12" fill="#8b949e">8.8%</text>
+  <text x="28" y="160" font-size="12" fill="#c9d1d9">CSS</text><rect x="130" y="151" width="150" height="8" rx="4" fill="#21262d"/><rect x="130" y="151" width="7.6" height="8" rx="4" fill="#22D3EE"/><text x="290" y="160" font-size="12" fill="#8b949e">5.0%</text>
+  </g>
+</svg>
